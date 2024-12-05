@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '13.0'
+
+target 'RouteCoordinator_Example' do
+  pod 'RouteCoordinator', :path => '../'
+
+  target 'RouteCoordinator_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
